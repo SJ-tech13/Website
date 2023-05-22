@@ -1,0 +1,84 @@
+body{
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: lightblue;
+    padding: 0;
+}
+section{
+    background: white;
+    color: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+div{
+    background: lightblue;
+    margin: auto;
+    width: 100px;
+}
+ul{
+background: red;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-shadow: 40ch;
+}
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+footer{
+    margin-bottom: 0;
+    background: lightblue;
+}
+image{
+    size-adjust: 0px;
+    align-self: start;
+    left: auto;
+}
+logo{
+    color: red;
+    nav-right: auto;
+
+}
+.google-font-text{
+    font-family: 'Proza Libra', sans-serif;
+}
+@media only screen and (max-width: 767px) { /*Make the text green on small devices*/
+    .mytext{
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 768px) { /*Make the text red on large devices*/
+    .mytext{
+        color: red;
+    }
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  front-page-header{
+    font-size: 72px;
+    color: green;
+  }
+.this-could-be-anything{
+    text-align: center;
+}
+.front-page-header{
+    color: greenyellow;
+}
